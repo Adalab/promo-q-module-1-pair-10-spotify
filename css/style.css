@@ -1,0 +1,18 @@
+.header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 25px;
+}
+.header .logo{
+  height:70px;
+}
+.logo-menu{
+    height: 70px;
+}
+.main .banner {
+  background-color: #529cf1;
+  height: 1000px;
+}
