@@ -3,6 +3,11 @@
     'Roboto'
     , 'Times New Roman', Times, serif;
 }
+body{
+  width: 100%;
+}
+
+/* ESTAMOS REVISANDO TAMAÑOS DE LOS ELEMENTOS DE WHY CONTAINER, ESTÁBAMOS PROBANDO DAR MEDIDAS A BODY PERO NO FUNCIONA */
 
 .header {
   background-color: black;
@@ -23,7 +28,7 @@
 
 .main .hero {
   background-color: #529cf1;
-  height: 400px;
+  height: 50vh;
   color: white;
   padding: 15px;
   display: flex;
@@ -69,8 +74,34 @@
 
 .why .title {
   margin: 50px;
-  font-weight: bolder;
-  font-size: 20px;
+  font-weight: 900;
+  font-size: 27px;
+  text-align: center;
+}
 
+.why .container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.why .container .icon {
+  display: flex;
+  flex-grow: 1;
+  
+}
+
+.why .container .text {
+  display: flex;
+  flex-grow: 4;
+
+}
+
+@media all and (min-width: 480px) {
+
+.main .hero {
+  background: #529cf1 url("../images/premium_dancer.png") no-repeat right;
+  background-size: contain;
+}
 
 }
